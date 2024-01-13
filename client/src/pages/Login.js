@@ -12,11 +12,11 @@ import {
   Alert,
   Collapse,
 } from "@mui/material";
-axios.defaults.baseURL = 'http://localhost:8080';
+axios.defaults.baseURL = 'https://chat-app-ai.onrender.com';
 
 const Login = () => {
   const instance = axios.create({
-    baseURL: 'http://localhost:8080',
+    baseURL: 'https://chat-app-ai.onrender.com',
   });
   const theme = useTheme();
   const navigate = useNavigate();

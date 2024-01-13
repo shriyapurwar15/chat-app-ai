@@ -13,7 +13,7 @@ import {
   Collapse,
   Card,
 } from "@mui/material";
-axios.defaults.baseURL = 'http://localhost:8080';
+axios.defaults.baseURL = 'https://chat-app-ai.onrender.com';
 
 const Summary = () => {
   const theme = useTheme();

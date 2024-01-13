@@ -12,7 +12,7 @@ import {
   Alert,
   Collapse,
 } from "@mui/material";
-axios.defaults.baseURL = 'http://localhost:8080';
+axios.defaults.baseURL = 'https://chat-app-ai.onrender.com';
 
 const Register = () => {
   const theme = useTheme();
